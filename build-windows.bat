@@ -1,0 +1,2 @@
+cl /MP /O2 /Ibzip2 /Iwindows /DBSDIFF_EXECUTABLE  /Fe: bsdiff-endsley.exe  bsdiff.c  bzip2/bzlib.c bzip2/compress.c bzip2/decompress.c bzip2/crctable.c bzip2/randtable.c bzip2/blocksort.c bzip2/huffman.c
+cl /MP /O2 /Ibzip2 /Iwindows /DBSPATCH_EXECUTABLE /Fe: bspatch-endsley.exe bspatch.c bzip2/bzlib.c bzip2/compress.c bzip2/decompress.c bzip2/crctable.c bzip2/randtable.c bzip2/blocksort.c bzip2/huffman.c
